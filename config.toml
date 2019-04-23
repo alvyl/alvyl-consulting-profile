@@ -2,17 +2,10 @@ baseURL = "http://profile.alvyl.com"
 languageCode = "en-us"
 title = "Alvyl Consulting - Company Profile"
 disableKinds = ["sitemap", "RSS"]
+canonifyURLs = true
+hideTitle = true
 
-#theme = "reveal-hugo"
 theme = "hugo-reveal-alvyl"
 
 [author]
 name = "Hari Krishna Ganji <hari@alvyl.com>"
-
-[outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
-
-[params.reveal_hugo]
-history = true
