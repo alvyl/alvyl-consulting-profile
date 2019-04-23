@@ -1,7 +1,6 @@
 ---
 title: "Alvyl Cocoon"
 weight: 1
-outputs: ["Reveal"]
 ---
 
 Alvyl Cocoon is a product offering from Alvyl Consulting for Internet of Things (IoT).

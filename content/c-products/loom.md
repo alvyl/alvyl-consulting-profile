@@ -1,7 +1,6 @@
 ---
 title: "Alvyl Loom (Incubating)"
 weight: 2
-outputs: ["Reveal"]
 ---
 
 Alvyl Loom is a platform offering from Alvyl Consulting for Data Analysis.

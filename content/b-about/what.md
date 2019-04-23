@@ -1,7 +1,6 @@
 ---
 title: "What we do"
 weight: 2
-outputs: ["Reveal"]
 ---
 
 We offer Software Consulting Services to Startups & Businesses.

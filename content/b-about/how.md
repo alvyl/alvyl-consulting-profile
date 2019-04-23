@@ -1,10 +1,7 @@
 ---
 title: "How we do"
 weight: 3
-outputs: ["Reveal"]
 ---
-
-
 
 - Agile
 - DevOps

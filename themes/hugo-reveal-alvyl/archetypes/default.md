@@ -1,5 +1,6 @@
----
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-weight: 1
-draft: true
----
++++
+title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
+weight = 1
+draft = true
++++

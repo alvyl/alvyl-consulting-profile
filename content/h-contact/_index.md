@@ -1,7 +1,6 @@
 ---
 title: "Contact Us"
 weight: 8
-outputs: ["Reveal"]
 ---
 
 Email: [hari@alvyl.com](mailto:hari@alvyl.com)

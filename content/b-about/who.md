@@ -1,7 +1,6 @@
 ---
 title: "Who we are"
 weight: 1
-outputs: ["Reveal"]
 ---
 
 Alvyl Consulting is an energetic team of skilled software consultants from diverse backgrounds.

@@ -1,7 +1,6 @@
 ---
 title: "Overview"
 weight: 1
-outputs: ["Reveal"]
 ---
 
 Cloud | Data | Things

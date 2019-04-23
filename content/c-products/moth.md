@@ -1,7 +1,6 @@
 ---
 title: "Alvyl Moth (Incubating)"
 weight: 3
-outputs: ["Reveal"]
 ---
 
 Alvyl Moth is a product offering from Alvyl Consulting for Cloud Infrastructure & DevOps Automation.
