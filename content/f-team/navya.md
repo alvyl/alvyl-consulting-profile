@@ -10,4 +10,4 @@ Consultant
 <br/><br/>
 Product Manager, Business Analyst with a passion for Growth Hacking.
 <br/><br/>
-Technologies: Project Management, Tableau, Superset, Testing
+**Technologies:** Project Management, Tableau, Superset, Testing

@@ -10,4 +10,4 @@ Consultant
 <br/><br/>
 Wants to improve people's lives through UI/UX design which makes business sense. Loves Painting and Singing.
 <br/><br/>
-Technologies: Angular JS, Angular CLI, Javascript, Typescript
+**Technologies:** Angular JS, Angular CLI, Javascript, Typescript

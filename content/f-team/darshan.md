@@ -10,4 +10,4 @@ Consultant
 <br/><br/>
 DevOps enthusiast with a background in Automation Testing. Village boy with roots in Agriculture. Likes bikes and gadgets.
 <br/><br/>
-Technologies: Docker, Terraform, Kubernetes, Azure, Prometheus, Grafana, AWS IoT
+**Technologies:** Docker, Terraform, Kubernetes, Azure, Prometheus, Grafana, AWS IoT
