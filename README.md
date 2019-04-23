@@ -1,2 +1,2 @@
 # alvyl-consulting-profile
-Alvyl Consulting (https://alvyl.com) company profile. 
+Alvyl Consulting (https://alvyl.com) company profile.

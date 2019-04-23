@@ -1,0 +1,17 @@
+---
+weight: 3
+---
+
+### Venkat
+
+{{< image src="images/3-venkat.png" title="Venkat Yerragudi" >}}
+
+[Venkat Yerragudi](https://www.linkedin.com/in/vsyerragudi/)
+<br/>
+Data Science Consultant
+<br/><br/>
+Loves making things smart and building the platforms that enable them.
+
+**Roles:** Data Science Engineer, Architect and Mentor
+
+**Technologies:** Python, C, Java, R, SQL, JavaScript, Tableau, Data Analytics Platforms, IoT, Defensive Cyber Security solutions

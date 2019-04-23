@@ -1,0 +1,11 @@
+{{ $image_src := (.Get "src") }}
+{{ $image_title := (.Get "title") }}
+
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" $image_src) }}
+
+{{ if $original }}
+    {{ $image := $original.Resize "x128" }}
+    <figure >
+        <img style="max-width: 100%; height: auto;" alt="{{ $image_title }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    </figure>
+{{ end }}

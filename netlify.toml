@@ -1,0 +1,9 @@
+[build]
+command = "hugo"
+publish = "public"
+
+[context.production.environment]
+HUGO_VERSION = "0.53"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.53"

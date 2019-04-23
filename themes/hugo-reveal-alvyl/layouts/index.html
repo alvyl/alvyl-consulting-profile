@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+    <div class="reveal">
+        <div class="slides">
+
+                {{ range sort .Site.Sections.ByWeight }}
+                <section>
+                  {{ partial "slide.html" . }}
+        
+                  {{ range sort .Pages.ByWeight }}
+                    {{ partial "slide.html" . }}
+                  {{ end }}
+                  
+                </section>
+
+              {{ end }}
+        </div>
+    </div>
+
+{{ end }}
