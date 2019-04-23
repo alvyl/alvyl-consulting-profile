@@ -4,15 +4,8 @@ weight: 7
 
 ### Reverie - DevOps Monitoring & Automation
 
-- Implement Prometheus Monitoring to collect Machine, Server/Database Level Metrics.
-- Implement solutions for dataStores Backup Automation & Recovery.
-    - Setup a central Object Storage Account for data backups, like S3 or Azure Storage Account.
-    - Setup a central Task Scheduling Server/Daemon for automating data backups.
-- Infrastructure and Workflow Optimization
-    - Gather all metrics on Infrastructure, Servers, Services, and Applications.
-    - Implement and run performance tests, on Staging environments to simulate edge cases.
-    - Tune the Servers and Services
-    - Scale-up or Scale-down machines
-    - Relocate services across machines.
+We have implemented Monitoring across Machine, Servers, Databases, followed by Tuning, Scaling and Optimizing Cloud Infrastructure.
 
-**Technologies/Tools:** Terraform, Azure, Docker, Airflow
+Efforts also included solutions for dataStores Backup Automation & Recovery.
+
+**Technologies/Tools:** Terraform, Azure, Docker, Airflow and Bash

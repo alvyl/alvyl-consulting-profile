@@ -1,10 +1,11 @@
 ---
-weight: 11
+weight: 12
 ---
 
-CbCrunch - Roadmap Visualization
+### CbCrunch - Roadmap Visualization
 
-- Build CBCrunch roadmap, a clone of the Roadmunk tool. 
+A Roadmap Visualization tool, simialt to that of Roadmunk.
+
 - This is a tool especially designed for project management in a organisation. One can set the goal, create timeline and set milestone for any given project.
 - The User Interface involves real timelines and other data visualizations, built using Data Driven Documents
 
