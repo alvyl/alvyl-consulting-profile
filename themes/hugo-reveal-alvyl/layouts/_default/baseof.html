@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Language" content="{{ .Site.Language.Lang }}" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+<meta name="application-name" content="{{ .Site.Title }}" />
+
+<base href="{{ .Site.BaseURL }}">
+
+<title>{{ .Site.Title }}</title>
+
+<!-- TODO: Implement Google Analytics Integration -->
+
+<!-- TODO: Implement Open Graph Meta Tags -->
+<meta property="og:type" content="website">
+
+<!-- TODO: Implement Twitter Meta Tags -->
+
+<!-- CSS Stylesheets  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"
+    integrity="sha256-OxiHrn+gXudPDHxTvXiQzeFjZU/FllSSPmOOYAZ1O/g=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
+    integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" />
+
+<body>
+
+    {{- block "main" . }}{{- end }}
+
+    <!-- JS Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"
+        integrity="sha256-pv4AarTAzSO6lz+bbMPwmV29XMjkzmFOn601b2pWqXE=" crossorigin="anonymous"></script>
+
+    <!-- Initialize Reveal -->
+    <script>
+
+        var revealConfig = {
+            dependencies: [
+                // Syntax highlight for <code> elements
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/highlight/highlight.js', async: true },
+
+                // Zoom in and out with Alt+click
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/zoom-js/zoom.min.js', async: true }
+            ]
+        };
+
+        Reveal.initialize(revealConfig);        
+    </script>
+</body>
+
+</html>
