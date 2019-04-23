@@ -23,6 +23,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
     integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" />
 
+<style>
+    .reveal {
+        font-size: 1.5rem;
+    }
+</style>
+
 <body>
 
     {{- block "main" . }}{{- end }}
@@ -35,6 +41,13 @@
     <script>
 
         var revealConfig = {
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
             dependencies: [
                 // Syntax highlight for <code> elements
                 { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/highlight/highlight.js', async: true },
