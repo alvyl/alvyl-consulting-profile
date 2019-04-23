@@ -6,4 +6,4 @@ weight: 6
 <br/>
 [CBCrunch](https://www.cbcrunch.com/)
 <br/>
-Alpharetta, GA 30009
+Alpharetta, GA
