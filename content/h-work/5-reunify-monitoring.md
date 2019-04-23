@@ -2,7 +2,7 @@
 weight: 5
 ---
 
-### "Reunify - DevOps Monitoring"
+### Reunify - DevOps Monitoring
 
 We implemented realtime monitoring of Reunify's Trace production app.
 

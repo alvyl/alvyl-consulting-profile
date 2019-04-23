@@ -1,11 +1,11 @@
 ---
-weight: 10
+weight: 11
 ---
 
 ### NetControl - Web Tools
 
-- Migration of a complex Database schema and the associated data comprising of approximately 140 tables and with 
-  5 levels of dependencies, from standalone databases to a central cloud database platform.
+We implemented Self-Hosted to Cloud Data Migration of Database with a complex schema and the associated data comprising of approximately 140 tables and with 5 levels of dependencies.
+
 - The migration solution was built using Microsoft Business Intelligence tool called SSIS.
 - Implement Form Builder application as a compliance engine tool to augment day-to-day document archival activities. 
 
