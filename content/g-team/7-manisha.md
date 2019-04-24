@@ -2,7 +2,7 @@
 weight: 7
 ---
 
-### Manisha Panda
+### Manisha
 
 {{< image src="images/7-manisha.png" title="Manisha Panda" >}}
 

@@ -2,7 +2,7 @@
 weight: 6
 ---
 
-### Darshan A M
+### Darshan
 
 {{< image src="images/6-darshan.png" title="Darshan A M" >}}
 
