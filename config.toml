@@ -9,3 +9,6 @@ theme = "hugo-reveal-alvyl"
 
 [author]
 name = "Hari Krishna Ganji <hari@alvyl.com>"
+
+[blackfriday]
+hrefTargetBlank = true
