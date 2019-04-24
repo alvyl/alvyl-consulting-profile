@@ -8,4 +8,4 @@ Alvyl Loom is a platform offering, for performing Data Analysis & Analytics, fro
 
 Loom offers capabilities that meet the Storage, Analysis & Retrieval needs of modern high volume Data environments, using Open Source technology stacks, that can Scale.
 
-Loom can integrate with Alvyl Cocoon for analysis IoT data.
+Loom can integrate and ingest data from Alvyl Cocoon for analysis IoT data.
