@@ -7,11 +7,10 @@ weight: 5
 {{< image src="images/5-poly.png" title="Poly Dey" >}}
 
 [Poly Dey](https://www.linkedin.com/in/poly-dey-793325139/)
-<br/>
+
 Consultant
-<br/><br/>
+
 Data Engineer with a very strong work ethic.
-<br/><br/>
 
 **Roles:** Data Engineer, REST API Designer, IoT Solution Designer
 

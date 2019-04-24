@@ -6,6 +6,6 @@ weight: 7
 
 We have implemented Monitoring across Machine, Servers, Databases, followed by Tuning, Scaling and Optimizing Cloud Infrastructure.
 
-Efforts also included solutions for dataStores Backup Automation & Recovery.
+Efforts also included solutions for implementing Automation of DataStores Backup & Recovery.
 
 **Technologies/Tools:** Terraform, Azure, Docker, Airflow and Bash

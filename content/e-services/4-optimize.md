@@ -4,7 +4,7 @@ weight: 4
 
 ### Optimize
 
-Our approach towards optimization is very scientific. 
+Our approach towards optimization is very scientific.
 
 We use the following methods & tools:
 
