@@ -1,4 +1,4 @@
-baseURL = "https://profile.alvyl.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Alvyl Consulting - Company Profile"
 disableKinds = ["sitemap", "RSS"]
