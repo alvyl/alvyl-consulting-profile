@@ -20,68 +20,36 @@
 <!-- CSS Stylesheets  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"
     integrity="sha256-OxiHrn+gXudPDHxTvXiQzeFjZU/FllSSPmOOYAZ1O/g=" crossorigin="anonymous" />
+
+{{ with .Site.Params.revealTheme }}
+<link rel="stylesheet" href="css/reveal-js/{{ . }}.css" />
+{{ else }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
     integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" />
-
-<style>
-
-    /*
-     * Color theme for Alvyl Consulting here: 
-     * https://color.adobe.com/Alchemy-Village-color-theme-12450557 
-     */
-
-    /* Color Theme Swatches in Hex */
-    .Alchemy-Village-1-hex { color: #991F46; }
-    .Alchemy-Village-2-hex { color: #FF99BA; }
-    .Alchemy-Village-3-hex { color: #CC5279; }
-    .Alchemy-Village-4-hex { color: #1F992B; }
-    .Alchemy-Village-5-hex { color: #52CC5E; }
-
-    /* Color Theme Swatches in RGBA */
-    .Alchemy-Village-1-rgba { color: rgba(153, 31, 70, 1); }
-    .Alchemy-Village-2-rgba { color: rgba(255, 153, 186, 1); }
-    .Alchemy-Village-3-rgba { color: rgba(204, 82, 121, 1); }
-    .Alchemy-Village-4-rgba { color: rgba(31, 153, 43, 1); }
-    .Alchemy-Village-5-rgba { color: rgba(82, 204, 94, 1); }
-
-    /* Color Theme Swatches in HSLA */
-    .Alchemy-Village-1-hsla { color: hsla(340, 66, 36, 1); }
-    .Alchemy-Village-2-hsla { color: hsla(340, 100, 80, 1); }
-    .Alchemy-Village-3-hsla { color: hsla(340, 54, 56, 1); }
-    .Alchemy-Village-4-hsla { color: hsla(125, 66, 36, 1); }
-    .Alchemy-Village-5-hsla { color: hsla(125, 54, 56, 1); }
-
-    body {
-        /* primary background color */
-        /* background-color: #FFCCDC; */
-    }
-
-    .reveal {
-        font-size: 1.5rem;
-    }
-
-    .reveal h1,
-    .reveal h2,
-    .reveal h3,
-    .reveal h4,
-    .reveal h5,
-    .reveal h6 {
-        text-transform: none;
-    }
-</style>
+{{ end }}
 
 <body>
+
+    <div id="particles-js" style="position: absolute; height: 100vh; width: 100vw;"></div>
 
     {{- block "main" . }}{{- end }}
 
     <!-- JS Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"
         integrity="sha256-pv4AarTAzSO6lz+bbMPwmV29XMjkzmFOn601b2pWqXE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js"
+        integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=" crossorigin="anonymous"></script>
 
     <!-- Initialize Reveal -->
     <script>
 
         var revealConfig = {
+
+            // The "normal" size of the presentation, aspect ratio will be preserved
+            // when the presentation is scaled to fit different resolutions. Can be
+            // specified using percentage units.
+            width: 720,
+            height: 680,
 
             // Display presentation control arrows
             controls: true,
@@ -89,6 +57,9 @@
             // Help the user learn the controls by providing hints, for example by
             // bouncing the down arrow when they first encounter a vertical slide
             controlsTutorial: true,
+
+            // Determines where controls appear, "edges" or "bottom-right"
+            controlsLayout: 'edges',
 
             // Display a presentation progress bar
             progress: true,
@@ -98,7 +69,7 @@
 
             // Add the current slide number to the URL hash so that reloading the
             // page/copying the URL will return you to the same slide
-            hash: false,
+            hash: true,
 
             // Push each slide change to the browser history. Implies `hash: true`
             history: false,
@@ -122,7 +93,7 @@
             // Number of milliseconds between automatically proceeding to the
             // next slide, disabled when set to 0, this value can be overwritten
             // by using a data-autoslide attribute on your slides
-            autoSlide: 8000,
+            autoSlide: 4000,
 
             // Stop auto-sliding after user input
             autoSlideStoppable: true,
@@ -151,8 +122,15 @@
             ]
         };
 
-        Reveal.initialize(revealConfig);        
+        Reveal.initialize(revealConfig);
+
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'assets/particles.json', function () {
+            console.log('callback - particles.js config loaded');
+        });      
     </script>
+
+
 </body>
 
 </html>

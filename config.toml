@@ -1,4 +1,4 @@
-baseURL = "https://profile.alvyl.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Alvyl Consulting - Company Profile"
 disableKinds = ["sitemap", "RSS"]
@@ -6,6 +6,9 @@ canonifyURLs = true
 hideTitle = true
 
 theme = "hugo-reveal-alvyl"
+
+[params]
+revealTheme="alvyl"
 
 [author]
 name = "Hari Krishna Ganji <hari@alvyl.com>"
