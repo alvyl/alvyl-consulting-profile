@@ -1,6 +1,6 @@
 ---
 title: "Our Clients"
-weight: 6
+weight: 7
 ---
 
 ## Our Clients
