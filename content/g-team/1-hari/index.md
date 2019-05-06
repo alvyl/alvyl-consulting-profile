@@ -3,7 +3,7 @@ weight: 1
 ---
 ### Hari
 
-{{< image src="images/1-hari.png" title="Hari Krishna Ganji" >}}
+{{< image src="hari.png" title="Hari Krishna Ganji" >}}
 
 [Hari Krishna Ganji](https://www.linkedin.com/in/harikrishnaganji/)
 

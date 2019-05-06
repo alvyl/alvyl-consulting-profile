@@ -4,8 +4,8 @@ weight: 6
 
 ### CbCrunch
 
-{{< image src="6-cbcrunch" title="CbCrunch" >}}
+{{< image src="cbcrunch.png" title="CbCrunch" >}}
 
 [CBCrunch](https://www.cbcrunch.com/)
-<br/>
+
 Alpharetta, GA

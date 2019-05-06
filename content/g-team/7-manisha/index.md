@@ -4,7 +4,7 @@ weight: 7
 
 ### Manisha
 
-{{< image src="images/7-manisha.png" title="Manisha Panda" >}}
+{{< image src="manisha.png" title="Manisha Panda" >}}
 
 [Manisha Panda](https://www.linkedin.com/in/manisha-panda-4928688b/")
 

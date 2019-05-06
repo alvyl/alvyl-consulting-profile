@@ -4,8 +4,8 @@ weight: 1
 
 ### Reunify
 
-{{< image src="1-reunify" title="Reunify" >}}
+{{< image src="reunify.jpg" title="Reunify" >}}
 
 [Reunify LLC](https://www.reunify.com/)
-<br/>
+
 Los Angeles, CA

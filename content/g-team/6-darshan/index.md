@@ -4,7 +4,7 @@ weight: 6
 
 ### Darshan
 
-{{< image src="images/6-darshan.png" title="Darshan A M" >}}
+{{< image src="darshan.png" title="Darshan A M" >}}
 
 [Darshan A M](https://www.linkedin.com/in/darshan-a-m-a54484a3/)
 

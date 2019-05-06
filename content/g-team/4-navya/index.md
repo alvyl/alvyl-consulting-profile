@@ -4,7 +4,7 @@ weight: 4
 
 ### Navya
 
-{{< image src="images/4-navya.png" title="Navya Ganduri" >}}
+{{< image src="navya.png" title="Navya Ganduri" >}}
 
 [Navya Ganduri](https://www.linkedin.com/in/navya-ganduri/)
 

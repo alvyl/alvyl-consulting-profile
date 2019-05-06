@@ -4,7 +4,7 @@ weight: 3
 
 ### Venkat
 
-{{< image src="images/3-venkat.png" title="Venkat Yerragudi" >}}
+{{< image src="venkat.png" title="Venkat Yerragudi" >}}
 
 [Venkat Yerragudi](https://www.linkedin.com/in/vsyerragudi/)
 

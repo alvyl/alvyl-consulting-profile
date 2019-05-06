@@ -4,7 +4,7 @@ weight: 2
 
 ### Goutham
 
-{{< image src="images/2-goutham.png" title="Goutham Atreya" >}}
+{{< image src="goutham.png" title="Goutham Atreya" >}}
 
 [Goutham Atreya](https://www.linkedin.com/in/goutham-atreya/)
 

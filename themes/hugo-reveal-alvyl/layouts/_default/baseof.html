@@ -20,10 +20,13 @@
 <!-- CSS Stylesheets  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"
     integrity="sha256-OxiHrn+gXudPDHxTvXiQzeFjZU/FllSSPmOOYAZ1O/g=" crossorigin="anonymous" />
-<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
-    integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" /> -->
 
-<link rel="stylesheet" href="css/theme/alvyl.css" />
+{{ with .Site.Params.revealTheme }}
+<link rel="stylesheet" href="css/theme/{{ . }}.css" />
+{{ else }}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
+    integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" />
+{{ end }}
 
 <body>
 
@@ -42,12 +45,21 @@
 
         var revealConfig = {
 
+            // The "normal" size of the presentation, aspect ratio will be preserved
+            // when the presentation is scaled to fit different resolutions. Can be
+            // specified using percentage units.
+            width: 720,
+            height: 680,
+
             // Display presentation control arrows
             controls: true,
 
             // Help the user learn the controls by providing hints, for example by
             // bouncing the down arrow when they first encounter a vertical slide
             controlsTutorial: true,
+
+            // Determines where controls appear, "edges" or "bottom-right"
+            controlsLayout: 'edges',
 
             // Display a presentation progress bar
             progress: true,

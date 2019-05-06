@@ -4,7 +4,7 @@ weight: 5
 
 ### Poly
 
-{{< image src="images/5-poly.png" title="Poly Dey" >}}
+{{< image src="poly.png" title="Poly Dey" >}}
 
 [Poly Dey](https://www.linkedin.com/in/poly-dey-793325139/)
 
