@@ -4,7 +4,7 @@
  * By Hakim El Hattab, http://hakim.se
  */
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-/* Color Theme Swatches in HSLA */
+/* Color Theme Swatches in Hex */
 section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
   color: #fff; }
 
@@ -12,23 +12,23 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #f1f1e9;
-  background-color: #f1f1e9; }
+  background: #ffffff;
+  background-color: #ffffff; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  color: #0d0d0d; }
+  color: #000000; }
 
 ::selection {
   color: #fff;
-  background: #f8879b;
+  background: #ec7fd1;
   text-shadow: none; }
 
 ::-moz-selection {
   color: #fff;
-  background: #f8879b;
+  background: #ec7fd1;
   text-shadow: none; }
 
 .reveal .slides section,
@@ -46,7 +46,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #a50928;
+  color: #D6207B;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-weight: 400;
   line-height: 1.2;
@@ -210,20 +210,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #f10e38;
+  color: #CC1FA1;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #f55673;
+  color: #e553c0;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #a90a27; }
+  background: #8a156d; }
 
 /*********************************************
  * IMAGES
@@ -231,7 +231,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #0d0d0d;
+  border: 4px solid #000000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -245,21 +245,21 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #f10e38;
+  border-color: #CC1FA1;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #f10e38; }
+  color: #CC1FA1; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #f10e38; }
+  color: #CC1FA1; }
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -271,4 +271,4 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #f1f1e9; } }
+    background-color: #ffffff; } }
