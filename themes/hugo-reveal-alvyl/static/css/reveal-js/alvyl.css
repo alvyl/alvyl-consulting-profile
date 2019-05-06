@@ -12,14 +12,14 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #ffffff;
-  background-color: #ffffff; }
+  background: #F5EBED;
+  background-color: #F5EBED; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  color: #000000; }
+  color: #0A0003; }
 
 ::selection {
   color: #fff;
@@ -231,7 +231,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #000000;
+  border: 4px solid #0A0003;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
 
 .reveal section img.plain {
@@ -271,4 +271,4 @@ body {
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #ffffff; } }
+    background-color: #F5EBED; } }

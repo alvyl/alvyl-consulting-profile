@@ -6,6 +6,6 @@
 {{ if $original }}
     {{ $image := $original.Resize "x128" }}
     <figure>
-        <img style="max-width: 100%; height: auto; background-color: white" alt="{{ $image_title }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+        <img style="max-width: 100%; height: auto;" alt="{{ $image_title }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
     </figure>
 {{ end }}

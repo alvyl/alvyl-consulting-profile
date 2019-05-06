@@ -1,0 +1,18 @@
+/* Color Theme Swatches in Hex */
+.alvyl-rgb-dark-1-hex { color: #9E1839; }
+.alvyl-rgb-dark-2-hex { color: #CC1FA1; }
+.alvyl-rgb-dark-3-hex { color: #D6207B; }
+.alvyl-rgb-dark-4-hex { color: #2281E0; }
+.alvyl-rgb-dark-5-hex { color: #23EB87; }
+
+.alvyl-dark-hex { color: #0A0003; } 
+.alvyl-light-hex { color: #F5EBED; }
+
+.alvyl-rgb-dark-1-bg { background-color: #9E1839; }
+.alvyl-rgb-dark-2-bg { background-color: #CC1FA1; }
+.alvyl-rgb-dark-3-bg { background-color: #D6207B; }
+.alvyl-rgb-dark-4-bg { background-color: #2281E0; }
+.alvyl-rgb-dark-5-bg { background-color: #23EB87; }
+
+.alvyl-dark-bg { background-color: #0A0003; } 
+.alvyl-light-bg { background-color: #F5EBED; }

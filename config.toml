@@ -8,7 +8,7 @@ hideTitle = true
 theme = "hugo-reveal-alvyl"
 
 [params]
-revealTheme="alvyl-dark"
+revealTheme="alvyl"
 
 [author]
 name = "Hari Krishna Ganji <hari@alvyl.com>"
