@@ -1,6 +1,6 @@
 ---
 title: "Our Team"
-weight: 7
+weight: 6
 ---
 
 ## Our Team

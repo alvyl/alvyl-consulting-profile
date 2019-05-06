@@ -10,4 +10,4 @@ We helped scale Tagbox's Big-Data Analytics platform infrastructure to be able t
 - Collected and relay telemetry to the backend via 500 gateway devices in burst mode.
 - Consume raw & processed telemetry data by 1000+ users at any given instant of time.
 
-**Technologies/Tools:** Terraform, Azure, Docker, Airflow, Kubernetes
+**Technologies/Tools:** Terraform, Azure, Azure IOT Hub, Docker, Prometheus, Grafana, Locust & Vegeta.
