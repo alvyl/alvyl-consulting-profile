@@ -4,10 +4,10 @@
         "value": 32
       },
       "color": {
-        "value": "#9E1839"
+        "value": "#000000"
       },
       "opacity": {
-        "value": 0.8
+        "value": 0.4
       },
       "size": {
         "value": 1,
@@ -16,7 +16,7 @@
       "line_linked": {
         "enable": true,
         "distance": 96,
-        "color": "#9E1839",
+        "color": "#000000",
         "opacity": 0.2,
         "width": 1
       },
