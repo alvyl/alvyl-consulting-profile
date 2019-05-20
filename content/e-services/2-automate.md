@@ -10,4 +10,9 @@ We are strong advocates of DevOps Culture, Continuous Integration, Continuous De
 
 Tools we have used for automation: 
 
-Bash Scripts, Linux Cron Scheduler, Python Scripts, Ruby Scripts, JavaScript on Node.js, Git, Jenkins, Terraform, Ansible, and Apache Airflow
+Bash Scripts, Linux Cron Scheduler, 
+Python Scripts, Ruby Scripts, 
+JavaScript on Node.js, 
+Git, Jenkins, 
+Terraform, Ansible, and 
+Apache Airflow
