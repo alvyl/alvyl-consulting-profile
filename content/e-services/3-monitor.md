@@ -10,5 +10,5 @@ Continuous observation & acquisition of data from systems in production is key t
 
 We have used the following technology stacks to help many businesses scale their systems:
 
-- Prometheus Stack: Prometheus and Grafana (System Data)
-- TICK Stack: Telegraf, Influx DB, Chronograf, and Kapacitor (Business Data)
+Prometheus and Grafana (System Data), 
+Telegraf, Influx DB, Chronograf, and Kapacitor (Business Data)

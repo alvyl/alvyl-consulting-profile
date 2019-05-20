@@ -9,4 +9,7 @@ We adopt many awesome Open Source technologies and Public Cloud Providers to mak
 
 Some of the Services & Platforms we used to scale are:
 
-Nginx, HaProxy, Cassandra, Docker, Kubernetes, Helm, Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform
+Nginx, HaProxy, 
+Cassandra, 
+Docker, Kubernetes, Helm, 
+Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform
