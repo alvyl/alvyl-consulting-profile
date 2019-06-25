@@ -12,3 +12,5 @@ Consultant
 Full Stack Developer, UI geek and an engineer at heart. Milind has experience of working at a startup for about a year and freelancing. He's delved into hybrid mobile application development as well. 
 
 **Roles:** UI Engineer, Backend Developer
+
+**Technologies:** C, Java, HTML, CSS, Javascript, React, Redux, NodeJS, PHP, Flutter, Dart, SQL
