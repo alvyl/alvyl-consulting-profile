@@ -1,4 +1,6 @@
 ---
+title: "Software Consulting"
+linktitle: "software-consulting"
 weight: 1
 ---
 

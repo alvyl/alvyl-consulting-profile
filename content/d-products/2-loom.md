@@ -1,4 +1,6 @@
 ---
+title: "Alvyl Loom"
+linktitle: "alvyl-loom"
 weight: 2
 ---
 

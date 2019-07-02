@@ -1,4 +1,6 @@
 ---
+title: "How we do"
+linktitle: "how-we-do"
 weight: 3
 ---
 

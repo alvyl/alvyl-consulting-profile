@@ -1,4 +1,6 @@
 ---
+title: "Navya"
+linktitle: "navya"
 weight: 4
 ---
 

@@ -1,4 +1,6 @@
 ---
+title: "Who we are"
+linktitle: "who-we-are"
 weight: 1
 ---
 
