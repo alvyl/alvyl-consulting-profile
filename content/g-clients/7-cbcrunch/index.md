@@ -1,4 +1,6 @@
 ---
+title: "CbCrunch"
+linktitle: "cbcrunch"
 weight: 6
 ---
 

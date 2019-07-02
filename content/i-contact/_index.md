@@ -1,5 +1,6 @@
 ---
 title: "Contact Us"
+linktitle: "contact-us"
 weight: 9
 ---
 

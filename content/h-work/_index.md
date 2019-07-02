@@ -1,5 +1,6 @@
 ---
 title: "Our Work"
+linktitle: "our-work"
 weight: 8
 ---
 

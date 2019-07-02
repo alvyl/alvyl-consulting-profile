@@ -1,4 +1,6 @@
 ---
+title: "NetControl"
+linktitle: "netcontrol"
 weight: 4
 ---
 

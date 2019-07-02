@@ -1,4 +1,6 @@
 ---
+title: "Alvyl Moth"
+linktitle: "alvyl-moth"
 weight: 4
 ---
 

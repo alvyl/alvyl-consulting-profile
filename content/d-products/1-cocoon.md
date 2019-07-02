@@ -1,4 +1,6 @@
 ---
+title: "Alvyl Cocoon"
+linktitle: "alvyl-cocoon"
 weight: 1
 ---
 

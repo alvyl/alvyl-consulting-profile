@@ -1,5 +1,6 @@
 ---
 title: "Our Clients"
+linktitle: "our-clients"
 weight: 7
 ---
 
