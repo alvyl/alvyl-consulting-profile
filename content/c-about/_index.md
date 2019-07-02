@@ -1,5 +1,6 @@
 ---
 title: "About Us"
+linktitle: "about-us"
 weight: 3
 ---
 

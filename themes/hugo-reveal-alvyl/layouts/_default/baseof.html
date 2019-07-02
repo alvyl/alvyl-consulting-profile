@@ -22,11 +22,20 @@
     integrity="sha256-OxiHrn+gXudPDHxTvXiQzeFjZU/FllSSPmOOYAZ1O/g=" crossorigin="anonymous" />
 
 {{ with .Site.Params.revealTheme }}
-<link rel="stylesheet" href="css/reveal-js/{{ . }}.css" />
+<link rel="stylesheet" href="css/reveal-js/theme/{{ . }}.css" />
 {{ else }}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/white.min.css"
     integrity="sha256-yrL16TdyPisf02WLfBiRl4ST24aYQM/lYN1vhrhc0O8=" crossorigin="anonymous" />
 {{ end }}
+
+<!-- PDF Exporting Support-->
+<script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/reveal-js/print/pdf.css' : 'css/reveal-js/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+</script>
 
 <body>
 
@@ -35,10 +44,8 @@
     {{- block "main" . }}{{- end }}
 
     <!-- JS Libraries -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"
-        integrity="sha256-pv4AarTAzSO6lz+bbMPwmV29XMjkzmFOn601b2pWqXE=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js"
-        integrity="sha256-icjghcPaibMf1jv4gQIGi5MeWNHem2SispcorCiCfSg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.js"></script>
 
     <!-- Initialize Reveal -->
     <script>
@@ -93,7 +100,7 @@
             // Number of milliseconds between automatically proceeding to the
             // next slide, disabled when set to 0, this value can be overwritten
             // by using a data-autoslide attribute on your slides
-            autoSlide: 4000,
+            autoSlide: 6000,
 
             // Stop auto-sliding after user input
             autoSlideStoppable: true,
@@ -113,20 +120,45 @@
             parallaxBackgroundHorizontal: 200,
             parallaxBackgroundVertical: 50,
 
+            // The maximum number of pages a single slide can expand onto when printing
+            // to PDF, unlimited by default
+            pdfMaxPagesPerSlide: Number.POSITIVE_INFINITY,
+
+            // Prints each fragment on a separate slide
+            pdfSeparateFragments: true,
+
+            // Offset used to reduce the height of content within exported PDF pages.
+            // This exists to account for environment differences based on how you
+            // print to PDF. CLI printing options, like phantomjs and wkpdf, can end
+            // on precisely the total height of the document whereas in-browser
+            // printing has to end one pixel before.
+            pdfPageHeightOffset: -1,
+
             dependencies: [
+
                 // Syntax highlight for <code> elements
-                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/highlight/highlight.js', async: true },
+                { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/highlight/highlight.min.js', async: true },
 
                 // Zoom in and out with Alt+click
                 { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/zoom-js/zoom.min.js', async: true }
             ]
         };
 
+        if(window.location.search.match(/print-pdf/gi)) {
+            console.log("isPrintingPDF() is: true. Disabling url hashing.");
+            revealConfig.hash = false;
+            revealConfig.autoSlide = 0;
+        }
+
         Reveal.initialize(revealConfig);
+
+        Reveal.addEventListener( 'ready', function( event ) {
+            console.log('callback - reveal.js is ready');
+        } );
 
         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
         particlesJS.load('particles-js', 'assets/particles.json', function () {
-            console.log('callback - particles.js config loaded');
+            console.log('callback - particles.js is loaded');
         });      
     </script>
 

@@ -1,4 +1,6 @@
 ---
+title: "Hari"
+linktitle: "hari"
 weight: 1
 ---
 ### Hari

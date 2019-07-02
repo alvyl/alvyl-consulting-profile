@@ -1,4 +1,6 @@
 ---
+title: "Build"
+linktitle: "build"
 weight: 1
 ---
 

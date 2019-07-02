@@ -1,5 +1,7 @@
 ---
 title: "Our Products"
+linktitle: "our-products"
+title: "Our Products"
 weight: 4
 ---
 

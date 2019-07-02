@@ -1,4 +1,6 @@
 ---
+title: "Scale"
+linktitle: "scale"
 weight: 5
 ---
 

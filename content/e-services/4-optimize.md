@@ -1,4 +1,6 @@
 ---
+title: "Optimize"
+linktitle: "optimize"
 weight: 4
 ---
 

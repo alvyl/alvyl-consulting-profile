@@ -1,4 +1,6 @@
 ---
+title: "Slogan"
+linktitle: "slogan"
 weight: 4
 ---
 

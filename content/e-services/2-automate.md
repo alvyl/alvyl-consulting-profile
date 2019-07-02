@@ -1,4 +1,6 @@
 ---
+title: "Automate"
+linktitle: "automate"
 weight: 2
 ---
 

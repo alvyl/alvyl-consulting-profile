@@ -1,4 +1,6 @@
 ---
+title: "Milind"
+linktitle: "milind"
 weight: 7
 ---
 ### Milind

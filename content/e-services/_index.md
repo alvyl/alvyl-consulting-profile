@@ -1,5 +1,6 @@
 ---
 title: "Our Services"
+linktitle: "our-services"
 weight: 5
 ---
 

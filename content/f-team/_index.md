@@ -1,5 +1,6 @@
 ---
 title: "Our Team"
+linktitle: "our-team"
 weight: 6
 ---
 
