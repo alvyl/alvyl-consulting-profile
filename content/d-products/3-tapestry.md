@@ -1,4 +1,6 @@
 ---
+title: "Alvyl Tapestry"
+linktitle: "alvyl-tapestry"
 weight: 3
 ---
 

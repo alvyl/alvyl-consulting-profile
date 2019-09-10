@@ -1,4 +1,6 @@
 ---
+title: "Reverie"
+linktitle: "reverie"
 weight: 2
 ---
 

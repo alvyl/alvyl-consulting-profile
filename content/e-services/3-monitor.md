@@ -1,4 +1,6 @@
 ---
+title: "Monitor"
+linktitle: "monitor"
 weight: 3
 ---
 

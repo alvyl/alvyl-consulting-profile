@@ -1,4 +1,6 @@
 ---
+title: "Poly"
+linktitle: "poly"
 weight: 5
 ---
 

@@ -1,4 +1,6 @@
 ---
+title: "Areas of Focus"
+linktitle: "areas-of-focus"
 weight: 2
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Alvyl Consulting"
+linktitle: "alvyl-consulting"
 weight: 1
 ---
 
