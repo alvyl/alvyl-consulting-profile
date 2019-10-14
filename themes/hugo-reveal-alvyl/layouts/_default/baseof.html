@@ -10,7 +10,9 @@
 
 <title>{{ .Site.Title }}</title>
 
-<!-- TODO: Implement Google Analytics Integration -->
+<!-- Google Analytics Integration -->
+
+{{ template "_internal/google_analytics_async.html" . }}
 
 <!-- TODO: Implement Open Graph Meta Tags -->
 <meta property="og:type" content="website">
