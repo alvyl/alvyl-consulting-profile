@@ -5,6 +5,8 @@ disableKinds = ["sitemap", "RSS"]
 canonifyURLs = true
 hideTitle = true
 
+googleAnalytics = "UA-115982595-2"
+
 theme = "hugo-reveal-alvyl"
 
 [params]
