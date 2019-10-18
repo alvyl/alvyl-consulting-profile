@@ -14,6 +14,8 @@
 
 {{ template "_internal/google_analytics_async.html" . }}
 
+{{ template "_internal/google_analytics_async.html" . }}
+
 <!-- TODO: Implement Open Graph Meta Tags -->
 <meta property="og:type" content="website">
 
@@ -145,6 +147,9 @@
                 { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/plugin/zoom-js/zoom.min.js', async: true }
             ]
         };
+
+        // quick disable autoslide
+        revealConfig.autoSlide = 0;
 
         if(window.location.search.match(/print-pdf/gi)) {
             console.log("isPrintingPDF() is: true. Disabling url hashing.");
