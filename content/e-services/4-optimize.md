@@ -13,7 +13,7 @@ We use the following methods & tools:
 - Application Profiling & Instrumentation
 - System Metrics Analysis & Visualization
 - Load & Performance Testing
-- Operating System & JVM Tuning
+- Operating System & Virtual Machine Tuning
 - App Server & Database Tuning
 - Network & Protocol Tuning
 - Code Refactoring to Best Practices and Patterns
