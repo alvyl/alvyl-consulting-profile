@@ -8,6 +8,6 @@ weight: 2
 
 Software Consulting Services to Startups & Businesses.
 
-We have helped many fast growth Startups optimize & scale their Cloud Platforms, at speed without impeding quality.
+We have helped many **fast growth startups** optimize & scale their Cloud Platforms, at speed without impeding quality.
 
-We also offer Products focused on Cloud Native Computing, Data Analysis, Business Intelligence, and Internet of Things (IoT).
+We also offer **products** focused on **IoT, Cloud Apps, DevOps, and DataOps**.

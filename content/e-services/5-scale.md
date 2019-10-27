@@ -6,13 +6,8 @@ weight: 5
 
 ### Scale
 
-Experts at Scaling applications to meet the demands of the modern era.
+Scaling is hard, and we are good at it.
 
-We adopt many awesome Open Source technologies and Public Cloud Providers to make this possible.
+We are **experts at scaling apps and services** to meet the demands of the modern era.
 
-Some of the Services & Platforms we used to scale are:
-
-- Nginx, HaProxy
-- Cassandra, Redis, RocksDB
-- Docker, Kubernetes, Helm
-- Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform
+We have proven experience both **horizontal and vertical scaling**, across dozens of databases, containers and nodes. We rely on many open source technologies and cloud providers to make this possible.

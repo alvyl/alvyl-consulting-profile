@@ -8,4 +8,4 @@ weight: 1
 
 Quality focused Software Consulting Experts.
 
-We can Design, Build, and Scale your Internet Applications, for the modern era.
+We can **design**, **build**, and **scale** your Internet Applications, for the modern era.

@@ -6,9 +6,9 @@ weight: 3
 
 ### How we do
 
-- Pursue Quality Deliberately
-- Relate to Humans
-- Apply Design Thinking
-- Be Agile and Nimble
-- Enable Distributed Collaboration
-- Apply Automation to Simplify
+- Relate to **humans**.
+- Be **agile & nimble**.
+- Apply **design thinking**.
+- Pursue **quality** deliberately.
+- Apply **automation** to simplify.
+- Enable **distributed collaboration**.
