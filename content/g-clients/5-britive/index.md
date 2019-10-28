@@ -10,4 +10,4 @@ weight: 3
 
 [Britive Inc](https://www.britive.com/)
 
-Bangalore, KA
+Bangalore, India

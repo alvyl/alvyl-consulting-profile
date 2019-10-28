@@ -10,4 +10,4 @@ weight: 3
 
 [TagBox Solutions](https://www.tagbox.in/)
 
-Bangalore, KA
+Bangalore, India
