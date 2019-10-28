@@ -109,6 +109,9 @@
             // Stop auto-sliding after user input
             autoSlideStoppable: true,
 
+            // Use this method for navigation when auto-sliding
+            autoSlideMethod: Reveal.navigateRight,
+
             // Transition style
             transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -149,7 +152,7 @@
         };
 
         // quick disable autoslide
-        revealConfig.autoSlide = 0;
+        // revealConfig.autoSlide = 0;
 
         if(window.location.search.match(/print-pdf/gi)) {
             console.log("isPrintingPDF() is: true. Disabling url hashing.");

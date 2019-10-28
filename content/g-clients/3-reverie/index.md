@@ -10,4 +10,4 @@ weight: 2
 
 [Reverie Language Technologies](https://reverieinc.com/)
 
-Bangalore, KA
+Bangalore, India

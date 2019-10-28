@@ -10,4 +10,4 @@ weight: 6
 
 [CBCrunch](https://www.cbcrunch.com/)
 
-Alpharetta, GA
+Alpharetta, United States

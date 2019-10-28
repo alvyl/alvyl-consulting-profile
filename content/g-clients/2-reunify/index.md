@@ -10,4 +10,4 @@ weight: 1
 
 [Reunify LLC](https://www.reunify.com/)
 
-Los Angeles, CA
+Los Angeles, United States
